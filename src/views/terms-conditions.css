@@ -1,0 +1,33 @@
+.terms-conditions-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0F0F0F;
+}
+.terms-conditions-text {
+  color: rgb(255, 255, 255);
+  height: 45px;
+  align-self: stretch;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.terms-conditions-container1 {
+  width: 800px;
+  height: 9000px;
+}
+.terms-conditions-container2 {
+  display: contents;
+}
+.terms-conditions-container4 {
+  display: contents;
+}
+@media(max-width: 479px) {
+  .terms-conditions-container1 {
+    width: 90%;
+    height: 13000px;
+  }
+}
